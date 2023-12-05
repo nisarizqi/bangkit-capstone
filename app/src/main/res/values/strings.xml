@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">BersihKan</string>
+    <string name="search_location">Search for location</string>
+    <string name="order_now">Order Now!</string>
+</resources>
