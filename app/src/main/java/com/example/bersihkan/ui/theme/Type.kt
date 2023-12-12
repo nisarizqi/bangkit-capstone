@@ -157,36 +157,36 @@ val textMediumExtraTiny = TextStyle(
 // textRegular
 val textRegularExtraLarge = TextStyle(
     fontFamily = fontFamily,
-    fontWeight = FontWeight.Medium,
+    fontWeight = FontWeight.Normal,
     fontSize = 24.sp,
 )
 val textRegularLarge = TextStyle(
     fontFamily = fontFamily,
-    fontWeight = FontWeight.Medium,
+    fontWeight = FontWeight.Normal,
     fontSize = 19.sp,
 )
 val textRegularMedium = TextStyle(
     fontFamily = fontFamily,
-    fontWeight = FontWeight.Medium,
+    fontWeight = FontWeight.Normal,
     fontSize = 16.sp,
 )
 val textRegularSmall = TextStyle(
     fontFamily = fontFamily,
-    fontWeight = FontWeight.Medium,
+    fontWeight = FontWeight.Normal,
     fontSize = 14.sp,
 )
 val textRegularExtraSmall = TextStyle(
     fontFamily = fontFamily,
-    fontWeight = FontWeight.Medium,
+    fontWeight = FontWeight.Normal,
     fontSize = 13.sp,
 )
 val textRegularTiny = TextStyle(
     fontFamily = fontFamily,
-    fontWeight = FontWeight.Medium,
+    fontWeight = FontWeight.Normal,
     fontSize = 12.sp,
 )
 val textRegularExtraTiny = TextStyle(
     fontFamily = fontFamily,
-    fontWeight = FontWeight.Medium,
+    fontWeight = FontWeight.Normal,
     fontSize = 8.5.sp,
 )
