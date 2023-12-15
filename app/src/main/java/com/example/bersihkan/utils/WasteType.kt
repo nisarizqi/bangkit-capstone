@@ -4,5 +4,5 @@ enum class WasteType(val type: String) {
     INITIAL("Select Type"),
     PLASTIC("Plastic"),
     PAPER("Paper"),
-    CARDBOARD("Cardboard"),
+    RUBBER("Rubber"),
 }

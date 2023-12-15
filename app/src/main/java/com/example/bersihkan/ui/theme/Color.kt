@@ -26,10 +26,11 @@ val Grey = Color(0xFF7E949A)
 val Mercury = Color(0xFFDDE2E4)
 val Loblolly = Color(0xFFBEC9CC)
 val Red = Color(0xFFC53E3E)
+val BonJour = Color(0xFFE0E0E0)
 
 fun gradient1(width: Float): Brush {
     return Brush.horizontalGradient(
-        colors = listOf(BostonBlue, BlueLagoon),
+        colors = listOf(BlueLagoon, BostonBlue),
         startX = 0f,
         endX = width
     )
