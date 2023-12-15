@@ -23,6 +23,7 @@ import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import com.example.bersihkan.R
+import com.example.bersihkan.ui.components.buttons.MediumButton
 import com.example.bersihkan.ui.theme.BersihKanTheme
 import com.example.bersihkan.ui.theme.BlueLagoon
 import com.example.bersihkan.ui.theme.Cerulean
@@ -99,28 +100,22 @@ fun WelcomePageTwo(
             Row(
                 horizontalArrangement = Arrangement.spacedBy(12.dp)
             ) {
-                Button(
+                MediumButton(
+                    text = stringResource(id = R.string.register),
                     onClick = navigateToRegister,
-                    colors = ButtonDefaults.buttonColors(
-                        containerColor = Java,
-                        contentColor = Color.White
-                    ),
+                    color = Java,
+                    isEnabled = true,
                     modifier = Modifier
                         .weight(1f)
-                ) {
-                    Text(text = "Register")
-                }
-                Button(
+                )
+                MediumButton(
+                    text = stringResource(id = R.string.login),
                     onClick = navigateToLogin,
-                    colors = ButtonDefaults.buttonColors(
-                        containerColor = Cerulean,
-                        contentColor = Color.White
-                    ),
+                    color = Cerulean,
+                    isEnabled = true,
                     modifier = Modifier
                         .weight(1f)
-                ) {
-                    Text(text = "Login")
-                }
+                )
             }
         }
     }

@@ -21,6 +21,7 @@ import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import com.example.bersihkan.R
+import com.example.bersihkan.ui.components.buttons.LargeButton
 import com.example.bersihkan.ui.theme.BersihKanTheme
 import com.example.bersihkan.ui.theme.BlueLagoon
 import com.example.bersihkan.ui.theme.Java
@@ -92,13 +93,14 @@ fun WelcomePageOne(
                     .weight(1f)
                     .padding(top = 14.dp)
             )
-            Button(
+            LargeButton(
+                text = stringResource(R.string.get_started),
                 onClick = navigateToNextScreen,
+                color = BlueLagoon,
+                isEnabled = true,
                 modifier = Modifier
                     .fillMaxWidth()
-            ) {
-                Text(text = stringResource(R.string.get_started))
-            }
+            )
         }
     }
 }
